@@ -15,17 +15,18 @@
 
 ## 🚀 安装
 
-1. 将 `ark_video_node.py` 文件放置到你的 ComfyUI 自定义节点目录：
-   ```
-   ComfyUI/custom_nodes/
-   ```
-
-2. 安装必要的依赖：
+1. 将整个项目克隆或下载到你的 ComfyUI 自定义节点目录：
    ```bash
-   pip install volcenginesdkarkruntime opencv-python pillow torch numpy requests
+   cd ComfyUI/custom_nodes/
+   git clone https://github.com/your-username/ComfyUI-ArkVideoGenerate.git
+   ```
+   
+   或者直接下载项目文件并解压到：
+   ```
+   ComfyUI/custom_nodes/ark-video-generate/
    ```
 
-3. 重启 ComfyUI
+2. 重启 ComfyUI，系统会自动根据 `requirements.txt` 安装所需依赖
 
 ## 📋 前置条件
 
