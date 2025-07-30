@@ -1,0 +1,7 @@
+# 火山引擎官方SDK（最新版）
+volcengine-python-sdk[ark]>=1.0.120
+
+# 图像处理依赖
+numpy>=1.24.3
+Pillow>=9.5.0
+torch>=2.0.0
